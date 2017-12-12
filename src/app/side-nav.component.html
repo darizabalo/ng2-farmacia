@@ -1,0 +1,11 @@
+<div *ngIf="user">
+    <ul class="nav nav-pills nav-stacked">
+        <li>
+            <a *ngFor="let user of users" (click)="setCurrentUser(user)">
+                <div>
+                    <h4>{{user.usu_nick}}</h4>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,22 @@
+a:hover {
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.module {
+    background-color: #607D8B;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.module:hover {
+    background-color: #EEE;
+    color: #607d8b;
+}

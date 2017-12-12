@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-1">
+      <app-side-nav></app-side-nav>
+    </div>
+    <div class="col-xs-11">
+      <h1>Sistema de Farmacia</h1>  
+      <h3>Usuario logueado: <span *ngIf="user">{{user.usu_nombre}}</span></h3>
+
+      <ul class="nav nav-pills">
+        <li><a routerLink="/users" routerLinkActive="active"><h4>Login</h4></a></li>
+        <li><a routerLink="/carga" routerLinkActive="active"><h4>Carga</h4></a></li>
+      </ul>
+      <router-outlet></router-outlet>
+    </div>
+  </div>  
+</div>

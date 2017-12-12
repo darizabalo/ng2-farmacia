@@ -1,0 +1,8 @@
+<div>
+    <a *ngFor="let user of users"  class="col-xs-3"
+        routerLink="/carga" (click)="setCurrentUser(user)">
+        <div class="module">
+            <h4>{{user.usu_nombre}}</h4>
+        </div>
+    </a>
+</div>
